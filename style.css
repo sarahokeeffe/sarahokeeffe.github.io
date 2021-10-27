@@ -4,20 +4,17 @@ body{
 	background-color:#FFF5EE;
 	font-family:Helvetica;
 }
-.container{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-	justify-content:space-between;
+.show{
+	background-color:lightblue;
+	color:navy;
+	text-align:center;
 }
-.container div{
-	display:flex;
-	width:450px; height:220px; margin:20px;
-	border: 3px solid #9ACD32;
-	font-size: 25px;
-	color:#A9A9A9	
+.row{
+	margin-top:100px;
+	min-height:100px;
+	justify-content:space-between;
 }
 @media only screen and (max-width: 800px) {
 body{
-    background-color: lightblue;
+    background-color: black;
 }
